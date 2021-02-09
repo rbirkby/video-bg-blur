@@ -94,7 +94,7 @@ async function perform(net) {
   while (startBtn.disabled && blurBtn.hidden) {
     const segmentation = await net.segmentPerson(video);
 
-    const backgroundBlurAmount = 3;
+    const backgroundBlurAmount = 1;
     const edgeBlurAmount = 1;
     const flipHorizontal = true;
 
