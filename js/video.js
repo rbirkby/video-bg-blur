@@ -94,8 +94,8 @@ async function perform(net) {
   while (startBtn.disabled && blurBtn.hidden) {
     const segmentation = await net.segmentPerson(video);
 
-    const backgroundBlurAmount = 6;
-    const edgeBlurAmount = 2;
+    const backgroundBlurAmount = 3;
+    const edgeBlurAmount = 1;
     const flipHorizontal = true;
 
     bodyPix.drawBokehEffect(
