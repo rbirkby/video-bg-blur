@@ -747,7 +747,7 @@
         }
         ,
         e
-    }(f), N = "https://storage.googleapis.com/tfjs-models/savedmodel/bodypix/resnet50/", V = "bodypix/mobilenet/";
+    }(f), N = "https://storage.googleapis.com/tfjs-models/savedmodel/bodypix/resnet50/", V = "js/bodypix/mobilenet/";
     function Q(t) {
         if ("undefined" != typeof HTMLCanvasElement && t instanceof HTMLCanvasElement || "undefined" != typeof HTMLImageElement && t instanceof HTMLImageElement)
             return function(t) {
